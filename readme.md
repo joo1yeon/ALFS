@@ -1,4 +1,4 @@
-# ALFS (ALllergy Free Scouter)
+# ALFS (ALlergy Free Scouter)
 
 ![Untitled](exec/Readme-asset/Untitled.jpeg)
 
@@ -20,7 +20,6 @@
   <img src="https://img.shields.io/badge/Spring Batch [5.0.3]-6DB33F?style=for-the-badge&logo=Spring Batch&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring Scheduler-6DB33F?style=for-the-badge&logo=Spring Scheduler&logoColor=white" />
   <img src="https://img.shields.io/badge/Gradle [8.2.1]-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
-  
 </div>
 
 ### Front-End
@@ -176,211 +175,196 @@ npm start
 - 주문내역에서 결제내역 확인가능
 
 ## &#128106; 페이지 소개 - 일반회원 
-  <div>
-    <h3 style= "text-align : center;">메인페이지</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        메인페이지 상단부<img src="./ALFS_IMAGE/main_top.PNG" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        메인페이지 중단부<img src="./ALFS_IMAGE/main_mid.PNG" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        메인페이지 하단부<img src="./ALFS_IMAGE/main_bottom.PNG" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        메인페이지<img src="./exec/Readme-asset/ALFS_gif/메인.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">마이페이지 - 알러지 관리</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        회원가입 후 알러지 조회<img src="./ALFS_IMAGE/init_allergy.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        알러지 추가<img src="./ALFS_IMAGE/setting_allergy.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        기본 알러지 22가지<img src="./ALFS_IMAGE/default_22allergy.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        기피 식품 추가<img src="./ALFS_IMAGE/add_hates.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-       추가 후 알러지 조회<img src="./ALFS_IMAGE/after_setting_allergy.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        회원가입<img src="./exec/Readme-asset/ALFS_gif/회원가입.gif" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        알러지 선택<img src="./exec/Readme-asset/ALFS_gif/알러지-선택.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">상품 조회</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        전체 상품 조회<img src="./ALFS_IMAGE/list_product.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        알러지 필터링<img src="./ALFS_IMAGE/why.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        상품 상세 조회<img src="./ALFS_IMAGE/product_detail.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        장바구니에 담기<img src="./ALFS_IMAGE/addcart.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        알러지 필터링<img src="./exec/Readme-asset/ALFS_gif/알러지-뱃지-확인.gif" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        상품 정렬<img src="./exec/Readme-asset/ALFS_gif/전체-상품-정렬.gif" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        카테고리 조회<img src="./exec/Readme-asset/ALFS_gif/카테고리.gif" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        검색<img src="./exec/Readme-asset/ALFS_gif/검색.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">대체상품 조회</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        대체상품 조회<img src="./ALFS_IMAGE/alternative_food.png"/>
-        추가한 알러지에 대한 대체식품군으로 조회
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        대체 상품<img src="./exec/Readme-asset/ALFS_gif/대체식품.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">특가할인 페이지</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        특가 할인 예정 상품<img src="./ALFS_IMAGE/bigsale_upcoming.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        특가 할인중인 상품<img src="./ALFS_IMAGE/bigsale_now.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        특가 할인 종료된 상품<img src="./ALFS_IMAGE/bigsale_soldout.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        특가 할인<img src="./exec/Readme-asset/ALFS_gif/특가상품-구매.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">장바구니</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        장바구니 조회<img src="./ALFS_IMAGE/basket.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        결제<img src="./ALFS_IMAGE/purchase.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        결제 완료 후<img src="./ALFS_IMAGE/purchase_success.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        장바구니<img src="./exec/Readme-asset/ALFS_gif/장바구니-결제.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">마이페이지 - 주문내역</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        주문내역 조회<img src="./ALFS_IMAGE/purchase_list.png" />
-      </div>
-    </div>
-    <h3 style="text-align : center">마이페이지 - 배송지 관리</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        배송지 조회 및 추가<img src="./ALFS_IMAGE/address_list.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        배송지 관리<img src="./exec/Readme-asset/ALFS_gif/배송지-추가-및-변경.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">이벤트 페이지</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        이벤트 (양자택일) <img src="./ALFS_IMAGE/event.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        이벤트 참여<img src="./ALFS_IMAGE/choose_one.png"/>
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        이벤트 참여<img src="./exec/Readme-asset/ALFS_gif/이벤트.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">고객 센터 1:1 문의</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        1:1 문의 작성<img src="./exec/Readme-asset/ALFS_gif/사용자-문의-작성.gif" />
-      </div>
-    </div>
-  </div>
+<h3 style= "text-align : center;">메인페이지</h3>
+    
+메인페이지<img src="./exec/Readme-asset/ALFS_gif/메인.gif" />
+
+<details>
+  <summary>이미지</summary>
+
+  | 메인페이지 상단부 | 메인페이지 중단부 | 메인페이지 하단부 |
+  | ----- | ----- | ----- |
+  | ![main](./ALFS_IMAGE/main_top.PNG) | ![main](./ALFS_IMAGE/main_mid.PNG) | ![main](./ALFS_IMAGE/main_bottom.PNG) |
+
+</details>
+
+<h3 style="text-align : center">마이페이지 - 알러지 관리</h3>
+
+회원가입<img src="./exec/Readme-asset/ALFS_gif/회원가입.gif" />
+알러지 선택<img src="./exec/Readme-asset/ALFS_gif/알러지-선택.gif" />
+
+<details>
+  <summary>이미지</summary>
+
+  | 회원가입 후 알러지 조회 | 알러지 추가 | 기본 알러지 22가지 |
+  | --- | --- | --- |
+  | <img src="./ALFS_IMAGE/init_allergy.png"/> | <img src="./ALFS_IMAGE/setting_allergy.png"/> | <img src="./ALFS_IMAGE/default_22allergy.png"/> |
+
+  | 기피 식품 추가 | 알러지 추가 후 조회 |
+  | --- | --- |
+  | <img src="./ALFS_IMAGE/add_hates.png"/> | <img src="./ALFS_IMAGE/after_setting_allergy.png"/> |
+
+</details>
+
+<h3 style="text-align : center">상품 조회</h3>
+
+알러지 필터링<img src="./exec/Readme-asset/ALFS_gif/알러지-뱃지-확인.gif" />
+상품 정렬<img src="./exec/Readme-asset/ALFS_gif/전체-상품-정렬.gif" />
+카테고리 조회<img src="./exec/Readme-asset/ALFS_gif/카테고리.gif" />
+검색<img src="./exec/Readme-asset/ALFS_gif/검색.gif" />
+
+<details>
+  <summary>이미지</summary>
+
+  | 전체 상품 조회 | 알러지 필터링 |
+  | --- | --- |
+  | <img src="./ALFS_IMAGE/list_product.png"/> | <img src="./ALFS_IMAGE/why.png"/> |
+
+  | 상품 상세 조회 | 장바구니에 담기 |
+  | --- | --- |
+  | <img src="./ALFS_IMAGE/product_detail.png"/> | <img src="./ALFS_IMAGE/addcart.png" /> |
+
+</details>
+
+<h3 style="text-align : center">대체상품 조회</h3>
+
+대체 상품<img src="./exec/Readme-asset/ALFS_gif/대체식품.gif" />
+
+<details>
+  <summary>이미지</summary>
+
+  | 대체상품 조회 |
+  | --- |
+  | <img src="./ALFS_IMAGE/alternative_food.png"/> |
+
+</details>
+
+<h3 style="text-align : center">특가할인 페이지</h3>
+
+특가 할인<img src="./exec/Readme-asset/ALFS_gif/특가상품-구매.gif" />
+
+<details>
+  <summary>이미지</summary>
+
+  | 특가 할인 예정 상품 | 특가 할인중인 상품 | 특가 할인 종료된 상품 |
+  | --- | --- | --- |
+  | <img src="./ALFS_IMAGE/bigsale_upcoming.png"/> | <img src="./ALFS_IMAGE/bigsale_now.png"/> | <img src="./ALFS_IMAGE/bigsale_soldout.png"/> |
+
+</details>
+
+<h3 style="text-align : center">장바구니</h3>
+
+장바구니<img src="./exec/Readme-asset/ALFS_gif/장바구니-결제.gif" />
+
+<details>
+  <summary>이미지</summary>
+
+  | 장바구니 조회 | 결제 |
+  | --- | --- |
+  | <img src="./ALFS_IMAGE/basket.png" /> | <img src="./ALFS_IMAGE/purchase.png" /> |
+
+  | 결제 완료 후 | 주문내역 조회 |
+  | --- | --- |
+  | <img src="./ALFS_IMAGE/purchase_success.png" /> | <img src="./ALFS_IMAGE/purchase_list.png" /> |
+
+</details>
+
+<h3 style="text-align : center">마이페이지 - 배송지 관리</h3>
+
+배송지 관리<img src="./exec/Readme-asset/ALFS_gif/배송지-추가-및-변경.gif" />
+
+<details>
+  <summary>이미지</summary>
+
+  | 배송지 조회 및 추가 |
+  | --- |
+  | <img src="./ALFS_IMAGE/address_list.png" /> |
+
+</details>
+
+<h3 style="text-align : center">이벤트 페이지</h3>
+
+이벤트 참여<img src="./exec/Readme-asset/ALFS_gif/이벤트.gif" />
+
+<details>
+  <summary>이미지</summary>
+
+  | 이벤트 | 참여 |
+  | --- | --- |
+  | <img src="./ALFS_IMAGE/event.png"/> | <img src="./ALFS_IMAGE/choose_one.png"/> |
+
+</details>
+
+<h3 style="text-align : center">고객 센터 1:1 문의</h3>
+
+1:1 문의 작성<img src="./exec/Readme-asset/ALFS_gif/사용자-문의-작성.gif" />
+
 
 ## &#128119; 페이지 소개 - 관리자
-  <div>
-    <h3 style="text-align : center">관리자 로그인</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        카테고리 조회<img src="./exec/Readme-asset/ALFS_gif/관리자-로그인.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">관리자 페이지 - 상품등록</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        상품등록<img src="./ALFS_IMAGE/register_product.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        상품등록 - 상품 사진 등록<img src="./ALFS_IMAGE/register_product_1.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        상품등록 - 원재료<img src="./ALFS_IMAGE/register_product_2.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        상품등록 - 원재료 추출<img src="./ALFS_IMAGE/register_product_3.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        상품등록 - 기타 정보<img src="./ALFS_IMAGE/register_product_4.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        상품 등록 <img src="./exec/Readme-asset/ALFS_gif/관리자-상품-등록.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">관리자 페이지 - 상품관리</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        상품 관리<img src="./ALFS_IMAGE/management_product.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        상품 관리<img src="./exec/Readme-asset/ALFS_gif/관리자-상품-삭제.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">관리자 페이지 - 특가상품 등록</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        특가상품 등록<img src="./ALFS_IMAGE/register_bigsale_product.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        회원가입<img src="./exec/Readme-asset/ALFS_gif/특가상품-등록.gif" />
-      </div>
-    </div>
-    <h3 style="text-align : center">관리자 페이지 - 특가상품 관리</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        특가상품 관리<img src="./ALFS_IMAGE/management_bigsale_product.png" />
-      </div>
-    </div>
-    <h3 style="text-align : center">관리자 페이지 - 문의내역 관리</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-      <div style="border : solid white 1px; text-align : center;">
-        1:1 문의 답변<img src="./ALFS_IMAGE/counsel_2.png" />
-      </div>
-      <div style="border : solid white 1px; text-align : center;">
-        1:1 문의 답변<img src="./exec/Readme-asset/ALFS_gif/관리자-문의-답변.gif" />
-      </div>
-    </div>
-  </div>
+<div>
+  <h3 style="text-align : center">관리자 로그인</h3>
+
+  카테고리 조회<img src="./exec/Readme-asset/ALFS_gif/관리자-로그인.gif" />
+
+  <h3 style="text-align : center">관리자 페이지 - 상품등록</h3>
+
+  상품 등록 <img src="./exec/Readme-asset/ALFS_gif/관리자-상품-등록.gif" />
+
+  <details>
+    <summary>이미지</summary>
+
+    | 상품 등록 | 사진 등록 |
+    | --- | --- |
+    | <img src="./ALFS_IMAGE/register_product.png" /> | <img src="./ALFS_IMAGE/register_product_1.png" /> |
+
+    | 원재료 | 원재료 추출 | 기타 정보 |
+    | --- | --- | --- |
+    | <img src="./ALFS_IMAGE/register_product_2.png" /> | <img src="./ALFS_IMAGE/register_product_3.png" /> | <img src="./ALFS_IMAGE/register_product_4.png" /> |
+
+  </details>
+  
+  <h3 style="text-align : center">관리자 페이지 - 상품관리</h3>
+
+  상품 관리<img src="./exec/Readme-asset/ALFS_gif/관리자-상품-삭제.gif" />
+
+  <details>
+    <summary>이미지</summary>
+
+    | 상품 관리 |
+    | --- |
+    | <img src="./ALFS_IMAGE/management_product.png" /> | 
+
+  </details>
+  
+  <h3 style="text-align : center">관리자 페이지 - 특가상품</h3>
+
+  특가상품<img src="./exec/Readme-asset/ALFS_gif/특가상품-등록.gif" />
+
+  <details>
+    <summary>이미지</summary>
+
+    | 등록 | 관리 |
+    | --- | --- |
+    | <img src="./ALFS_IMAGE/register_bigsale_product.png" /> | <img src="./ALFS_IMAGE/management_bigsale_product.png" /> |
+
+  </details>
+
+  <h3 style="text-align : center">관리자 페이지 - 문의내역 관리</h3>
+
+
+
+  1:1 문의 답변<img src="./exec/Readme-asset/ALFS_gif/관리자-문의-답변.gif" />
+
+  <details>
+    <summary>이미지</summary>
+
+    | 1:1 문의 답변 |
+    | --- |
+    | <img src="./ALFS_IMAGE/counsel_2.png" /> |
+
+  </details>
+  
+</div>
 
 
 # 📌프로젝트 진행 및 산출물
@@ -701,8 +685,8 @@ npm start
 
 ## 개발팀 소개
 
-| 연주원🙂 (팀장) | 김수진😉 | 손효민😁 | 신대혁😀 | 안종상🤔 | 홍주영😌 |
+| 연주원🙂 | 김수진😉 | 손효민😁 | 신대혁😀 | 안종상🤔 | 홍주영😌 |
 | --------------------------------------- | ------------------------------------- | --------------------------------------------- | -------------------- | ---------- | --------- |
 | ![joo1yeon](https://avatars.githubusercontent.com/u/50977497?v=4) | ![soo0300](https://avatars.githubusercontent.com/u/46624130?v=4) | ![SonHyoMin00](https://avatars.githubusercontent.com/u/68097374?v=4) | ![shindaehyuk](https://avatars.githubusercontent.com/u/122503937?v=4) | ![skqlck](https://avatars.githubusercontent.com/u/95553204?v=4) | ![Juaaang](https://avatars.githubusercontent.com/u/110143791?v=4) |
 | [joo1yeon](https://github.com/joo1yeon) | [soo0300](https://github.com/soo0300) | [SonHyoMin00](https://github.com/SonHyoMin00) | [shindaehyuk](https://github.com/shindaehyuk) | [skqlck](https://github.com/skqlck) | [Juaaang](https://github.com/Juaaang) |
-| Back-end <br>Infra <br>기획 발표              | Back-end                              | Back-end                                      | Front-end <br>최종 발표 | Full-stack | Front-end |
+| 팀장 <br>Back-end <br>Infra <br>기획 발표              | Back-end                              | Back-end                                      | Front-end <br>최종 발표 | Full-stack | Front-end |
