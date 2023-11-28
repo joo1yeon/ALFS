@@ -304,7 +304,7 @@ npm start
 <div>
   <h3 style="text-align : center">관리자 로그인</h3>
 
-  카테고리 조회<img src="./exec/Readme-asset/ALFS_gif/관리자-로그인.gif" />
+  관리자 로그인<img src="./exec/Readme-asset/ALFS_gif/관리자-로그인.gif" />
 
   <h3 style="text-align : center">관리자 페이지 - 상품등록</h3>
 
