@@ -3,14 +3,15 @@
 ![Untitled](exec/Readme-asset/Untitled.jpeg)
 
 
-# 알러지 정보 기반의 온라인 식료품 쇼핑 플랫폼
+## 알러지 정보 기반의 온라인 식료품 쇼핑 플랫폼
 
-### 배포 주소
+### 프로젝트 개발 기간
 
-> 📌 https://k9c204.p.ssafy.io
+`2023.10.10.` ~ `2023.11.17.` (6주)
 
+<br>
 
-# 📌기술 스택
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 기술 스택
 
 ### Back-End
 
@@ -83,7 +84,9 @@
   <img src="https://img.shields.io/badge/termius [8.0.2]-000000?style=for-the-badge&logo=termius&logoColor=white" />
 </div>
 
-# 📌서비스 소개
+<br>
+
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 서비스 소개
 
 ## 서비스 설명
 
@@ -99,14 +102,16 @@
     💡 본인의 알러지를 등록하면 알러지가 목록에서부터 필터링 된 서비스를 이용할 수 있는 알러지 환자들에게 새로운 패러다임의 식품 쇼핑을 제공
     </aside>
 
+<br>
 
-# 📌기획 배경
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 기획 배경
 
 - 알러지를 보유한 경우에 두드러기나 습진 같은 피부 증상, 설사나 구토 등의 소화기 증상 그리고 호흡곤란, 발열 등의 증상이 나타날 수 있는데, 심한 경우 의식을 잃는 아나필락시스 쇼크 증상이 나타나 생명을 위협한다.
 - 1인가구의 등장과 비대면의 시대로 온라인 식료품 구매가 활발해지고있다. 알러지 환자들은 어김없이 식재료를 구매하는 것에 불편함을 온라인 식품 쇼핑에서도 겪고 있다.
 
+<br>
 
-# 📌 데모
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 데모
 
 ### 필수 사항
 
@@ -146,8 +151,9 @@ npm i
 npm start
 ```
 
+<br>
 
-# 📌기능 소개
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 기능 소개
 
 ## 주요 기능
 
@@ -366,14 +372,9 @@ npm start
   
 </div>
 
+<br>
 
-# 📌프로젝트 진행 및 산출물
-
-### 프로젝트 개발 기간
-
-`2023.10.10.` ~ `2023.11.17.` (6주)
-
-### 프로젝트 산출물
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 프로젝트 산출물
 
 ### Figma
 
@@ -680,8 +681,9 @@ npm start
                             └── 📁supervisor
 ```
 
+<br>
 
-# 📌개발 멤버
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 개발 멤버
 
 ## 개발팀 소개
 
