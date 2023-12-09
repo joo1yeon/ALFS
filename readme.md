@@ -16,7 +16,7 @@
 ### Back-End
 
 <div>
-  <img src="https://img.shields.io/badge/Java [11.0.15]-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java [11.0.15]-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring Boot [2.7.17]-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring Batch [5.0.3]-6DB33F?style=for-the-badge&logo=Spring Batch&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring Scheduler-6DB33F?style=for-the-badge&logo=Spring Scheduler&logoColor=white" />
