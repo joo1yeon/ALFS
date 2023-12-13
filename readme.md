@@ -3,23 +3,24 @@
 ![Untitled](exec/Readme-asset/Untitled.jpeg)
 
 
-# 알러지 정보 기반의 온라인 식료품 쇼핑 플랫폼
+## 알러지 정보 기반의 온라인 식료품 쇼핑 플랫폼
 
-### 배포 주소
+### 프로젝트 개발 기간
 
-> 📌 https://k9c204.p.ssafy.io
+`2023.10.10.` ~ `2023.11.17.` (6주)
 
 ### 시연 영상
 
 > 📌 https://youtu.be/nYTkQnfxt8Q
 
+<br>
 
-# 📌기술 스택
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 기술 스택
 
 ### Back-End
 
 <div>
-  <img src="https://img.shields.io/badge/Java [11.0.15]-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java [11.0.15]-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring Boot [2.7.17]-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring Batch [5.0.3]-6DB33F?style=for-the-badge&logo=Spring Batch&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring Scheduler-6DB33F?style=for-the-badge&logo=Spring Scheduler&logoColor=white" />
@@ -87,30 +88,26 @@
   <img src="https://img.shields.io/badge/termius [8.0.2]-000000?style=for-the-badge&logo=termius&logoColor=white" />
 </div>
 
-# 📌서비스 소개
+<br>
 
-## 서비스 설명
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 서비스 소개
 
 ### 개요
 
 - **타겟층**
-    <aside>
-    💡 매번 원재료를 확인하고 구매해야하는 알러지 환자들
-    </aside>
+    > 매번 원재료를 확인하고 구매해야하는 알러지 환자들
 
 - **목표**
-    <aside>
-    💡 본인의 알러지를 등록하면 알러지가 목록에서부터 필터링 된 서비스를 이용할 수 있는 알러지 환자들에게 새로운 패러다임의 식품 쇼핑을 제공
-    </aside>
+    > 본인의 알러지를 상품 목록에서 바로 확인할 수 있는 새로운 식품 쇼핑의 패러다임을 제공
 
+### 기획 배경
 
-# 📌기획 배경
+- 알러지를 보유한 경우 두드러기나 습진 같은 피부 증상, 설사나 구토 등의 소화기 증상 그리고 호흡곤란, 발열 등의 증상이 나타날 수 있는데, 심한 경우 의식을 잃는 아나필락시스 쇼크 증상이 나타나 생명을 위협한다.
+- 1인 가구의 등장과 비대면 시대로 온라인 식료품 구매가 활발해지고 있다. 알러지가 있는 사람들은 온라인에서 식재료를 구매할 때 식품의 상세 이미지에서 알러지 정보를 확인한 후에 구매를 해야하는 번거로움이 있다.
 
-- 알러지를 보유한 경우에 두드러기나 습진 같은 피부 증상, 설사나 구토 등의 소화기 증상 그리고 호흡곤란, 발열 등의 증상이 나타날 수 있는데, 심한 경우 의식을 잃는 아나필락시스 쇼크 증상이 나타나 생명을 위협한다.
-- 1인가구의 등장과 비대면의 시대로 온라인 식료품 구매가 활발해지고있다. 알러지 환자들은 어김없이 식재료를 구매하는 것에 불편함을 온라인 식품 쇼핑에서도 겪고 있다.
+<br>
 
-
-# 📌 데모
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 데모
 
 ### 필수 사항
 
@@ -150,37 +147,50 @@ npm i
 npm start
 ```
 
+<br>
 
-# 📌기능 소개
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 기능 소개
 
 ## 주요 기능
 
 ⭐ **알러지 필터링**
 
-- 필터를 적용할 때, 사용자가 회원가입에서 작성한 알러지 목록을 가져와서 적용
-- 추가적으로 기피하는 식품도 적용 가능. 알러지 필터로 상품에 포함된 알러지 유발 원재료, 제조시설에서 함유될 수 있는 알러지 유발 원재료, 기피 원재료를 파악할 수 있음
+- 사용자가 회원가입에서 작성한 알러지 정보를 이용하여 상품 목록에서 뱃지로 알러지 원재료 포함 여부를 표시한다.
+- 뱃지 색상에 따른 구분
+    - 빨간색: 알러지 유발 원재료 포함
+    - 주황색: 알러지를 유발하는 원재료와 같은 제조시설에서 제조됨
+    - 노란색: 사용자가 기피하는 식품
+    - 초록색: 구매해도 좋은 상품
 
 ⭐ **대체 식품 추천**
 
 - 알러지를 유발하는 원재료에 해당하는 대체 식품 목록을 확인
 
-⭐ **선착순 특가 및 양자택일 이벤트**
+⭐ **선착순 특가 상품 구매**
 
+- 제한된 시간 안에 선착순으로 할인하는 상품을 구매
+- Spring Batch를 이용하여 관리자가 등록한 시간에 특가 상품을 구매 가능한 상태로 변경
+- 대기열을 이용한 대용량 트래픽 처리 구현
+
+⭐ **양자택일 이벤트**
+
+- Spring Batch를 이용하여 특정 시간에 이벤트 시작
 - 관리자가 등록한 기간 동안 특가 할인이 적용된 상품을 선착순으로 구매하는 이벤트로, 특가이벤트 종료 전까지 할인 가격에 구매할 수 있음
-- 사용자의 기피식품을 선택하는 이벤트로, 실시간 나의 입력횟수 처리와 비율 반환
+- 사용자의 기피식품을 선택하는 이벤트로, 실시간 나의 입력 횟수 처리와 비율 반환
 
 ⭐ **관리자 상품 등록**
 
 - 관리자가 상품 정보를 입력할 때 이미지를 업로드하여 OCR 기능을 통해 원재료명을 추출
-- 상품 이미지는 AWS S3를 통해 이미지 url을 받고 상품에 해당하는 이미지 url을 DB에 저장
+- 상품 이미지는 AWS S3를 통해 이미지 URL을 받고 상품에 해당하는 이미지 URL을 DB에 저장
 
 ⭐ **장바구니 결제**
 
 - 사용자는 토스 페이 API를 사용하여 결제가능
-- 주문내역에서 결제내역 확인가능
+- 마이페이지에서 결제내역 확인가능
 
 ## &#128106; 페이지 소개 - 일반회원 
-<h3 style= "text-align : center;">메인페이지</h3>
+
+### 메인페이지
     
 메인페이지<img src="./exec/Readme-asset/ALFS_gif/메인.gif" />
 
@@ -193,7 +203,7 @@ npm start
 
 </details>
 
-<h3 style="text-align : center">마이페이지 - 알러지 관리</h3>
+### 마이페이지 - 알러지 관리
 
 회원가입<img src="./exec/Readme-asset/ALFS_gif/회원가입.gif" />
 알러지 선택<img src="./exec/Readme-asset/ALFS_gif/알러지-선택.gif" />
@@ -211,7 +221,7 @@ npm start
 
 </details>
 
-<h3 style="text-align : center">상품 조회</h3>
+### 상품 조회
 
 알러지 필터링<img src="./exec/Readme-asset/ALFS_gif/알러지-뱃지-확인.gif" />
 상품 정렬<img src="./exec/Readme-asset/ALFS_gif/전체-상품-정렬.gif" />
@@ -231,7 +241,7 @@ npm start
 
 </details>
 
-<h3 style="text-align : center">대체상품 조회</h3>
+### 대체상품 조회
 
 대체 상품<img src="./exec/Readme-asset/ALFS_gif/대체식품.gif" />
 
@@ -244,7 +254,7 @@ npm start
 
 </details>
 
-<h3 style="text-align : center">특가할인 페이지</h3>
+### 특가할인 페이지
 
 특가 할인<img src="./exec/Readme-asset/ALFS_gif/특가상품-구매.gif" />
 
@@ -257,7 +267,7 @@ npm start
 
 </details>
 
-<h3 style="text-align : center">장바구니</h3>
+### 장바구니
 
 장바구니<img src="./exec/Readme-asset/ALFS_gif/장바구니-결제.gif" />
 
@@ -274,7 +284,7 @@ npm start
 
 </details>
 
-<h3 style="text-align : center">마이페이지 - 배송지 관리</h3>
+### 마이페이지 - 배송지 관리
 
 배송지 관리<img src="./exec/Readme-asset/ALFS_gif/배송지-추가-및-변경.gif" />
 
@@ -287,7 +297,7 @@ npm start
 
 </details>
 
-<h3 style="text-align : center">이벤트 페이지</h3>
+### 이벤트 페이지
 
 이벤트 참여<img src="./exec/Readme-asset/ALFS_gif/이벤트.gif" />
 
@@ -300,85 +310,76 @@ npm start
 
 </details>
 
-<h3 style="text-align : center">고객 센터 1:1 문의</h3>
+### 고객 센터 1:1 문의
 
 1:1 문의 작성<img src="./exec/Readme-asset/ALFS_gif/사용자-문의-작성.gif" />
 
 
 ## &#128119; 페이지 소개 - 관리자
-<div>
-  <h3 style="text-align : center">관리자 로그인</h3>
 
-  관리자 로그인<img src="./exec/Readme-asset/ALFS_gif/관리자-로그인.gif" />
+### 관리자 로그인
 
-  <h3 style="text-align : center">관리자 페이지 - 상품등록</h3>
+관리자 로그인<img src="./exec/Readme-asset/ALFS_gif/관리자-로그인.gif" />
 
-  상품 등록 <img src="./exec/Readme-asset/ALFS_gif/관리자-상품-등록.gif" />
+### 관리자 페이지 - 상품등록
 
-  <details>
-    <summary>이미지</summary>
+상품 등록 <img src="./exec/Readme-asset/ALFS_gif/관리자-상품-등록.gif" />
 
-    | 상품 등록 | 사진 등록 |
-    | --- | --- |
-    | <img src="./ALFS_IMAGE/register_product.png" /> | <img src="./ALFS_IMAGE/register_product_1.png" /> |
+<details>
+  <summary>이미지</summary>
 
-    | 원재료 | 원재료 추출 | 기타 정보 |
-    | --- | --- | --- |
-    | <img src="./ALFS_IMAGE/register_product_2.png" /> | <img src="./ALFS_IMAGE/register_product_3.png" /> | <img src="./ALFS_IMAGE/register_product_4.png" /> |
+  | 상품 등록 | 사진 등록 |
+  | --- | --- |
+  | <img src="./ALFS_IMAGE/register_product.png" /> | <img src="./ALFS_IMAGE/register_product_1.png" /> |
 
-  </details>
-  
-  <h3 style="text-align : center">관리자 페이지 - 상품관리</h3>
+  | 원재료 | 원재료 추출 | 기타 정보 |
+  | --- | --- | --- |
+  | <img src="./ALFS_IMAGE/register_product_2.png" /> | <img src="./ALFS_IMAGE/register_product_3.png" /> | <img src="./ALFS_IMAGE/register_product_4.png" /> |
 
-  상품 관리<img src="./exec/Readme-asset/ALFS_gif/관리자-상품-삭제.gif" />
+</details>
 
-  <details>
-    <summary>이미지</summary>
+### 관리자 페이지 - 상품관리
 
-    | 상품 관리 |
-    | --- |
-    | <img src="./ALFS_IMAGE/management_product.png" /> | 
+상품 관리<img src="./exec/Readme-asset/ALFS_gif/관리자-상품-삭제.gif" />
 
-  </details>
-  
-  <h3 style="text-align : center">관리자 페이지 - 특가상품</h3>
+<details>
+  <summary>이미지</summary>
 
-  특가상품<img src="./exec/Readme-asset/ALFS_gif/특가상품-등록.gif" />
+  | 상품 관리 |
+  | --- |
+  | <img src="./ALFS_IMAGE/management_product.png" /> | 
 
-  <details>
-    <summary>이미지</summary>
+</details>
 
-    | 등록 | 관리 |
-    | --- | --- |
-    | <img src="./ALFS_IMAGE/register_bigsale_product.png" /> | <img src="./ALFS_IMAGE/management_bigsale_product.png" /> |
+### 관리자 페이지 - 특가상품
 
-  </details>
+특가상품<img src="./exec/Readme-asset/ALFS_gif/특가상품-등록.gif" />
 
-  <h3 style="text-align : center">관리자 페이지 - 문의내역 관리</h3>
+<details>
+  <summary>이미지</summary>
 
+  | 등록 | 관리 |
+  | --- | --- |
+  | <img src="./ALFS_IMAGE/register_bigsale_product.png" /> | <img src="./ALFS_IMAGE/management_bigsale_product.png" /> |
 
+</details>
 
-  1:1 문의 답변<img src="./exec/Readme-asset/ALFS_gif/관리자-문의-답변.gif" />
+### 관리자 페이지 - 문의내역 관리
 
-  <details>
-    <summary>이미지</summary>
+1:1 문의 답변<img src="./exec/Readme-asset/ALFS_gif/관리자-문의-답변.gif" />
 
-    | 1:1 문의 답변 |
-    | --- |
-    | <img src="./ALFS_IMAGE/counsel_2.png" /> |
+<details>
+  <summary>이미지</summary>
 
-  </details>
-  
-</div>
+  | 1:1 문의 답변 |
+  | --- |
+  | <img src="./ALFS_IMAGE/counsel_2.png" /> |
 
+</details>
 
-# 📌프로젝트 진행 및 산출물
+<br>
 
-### 프로젝트 개발 기간
-
-`2023.10.10.` ~ `2023.11.17.` (6주)
-
-### 프로젝트 산출물
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 프로젝트 산출물
 
 ### Figma
 
@@ -397,7 +398,6 @@ npm start
 | 기능 명세서 | API 명세서 |
 | ----------- | -----------|
 | ![기능명세서](exec/Readme-asset/기능명세서.gif) | ![API설계서](exec/Readme-asset/API명세서.gif) |
-
 
 ### Git Flow
 
@@ -685,10 +685,9 @@ npm start
                             └── 📁supervisor
 ```
 
+<br>
 
-# 📌개발 멤버
-
-## 개발팀 소개
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 팀원 소개
 
 | 연주원🙂 | 김수진😉 | 손효민😁 | 신대혁😀 | 안종상🤔 | 홍주영😌 |
 | --------------------------------------- | ------------------------------------- | --------------------------------------------- | -------------------- | ---------- | --------- |
