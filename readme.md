@@ -9,6 +9,10 @@
 
 `2023.10.10.` ~ `2023.11.17.` (6주)
 
+### 시연 영상
+
+> 📌 https://youtu.be/nYTkQnfxt8Q
+
 <br>
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 기술 스택
@@ -171,6 +175,7 @@ npm start
 ⭐ **양자택일 이벤트**
 
 - Spring Batch를 이용하여 특정 시간에 이벤트 시작
+- 관리자가 등록한 기간 동안 특가 할인이 적용된 상품을 선착순으로 구매하는 이벤트로, 특가이벤트 종료 전까지 할인 가격에 구매할 수 있음
 - 사용자의 기피식품을 선택하는 이벤트로, 실시간 나의 입력 횟수 처리와 비율 반환
 
 ⭐ **관리자 상품 등록**
