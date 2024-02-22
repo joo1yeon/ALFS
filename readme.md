@@ -1,9 +1,6 @@
-# ALFS (ALlergy Free Scouter)
+![](exec/Readme-asset/cover_image.png)
 
-![Untitled](exec/Readme-asset/Untitled.jpeg)
-
-
-## 알러지 정보 기반의 온라인 식료품 쇼핑 플랫폼
+# 알러지 정보 기반의 온라인 식료품 쇼핑 플랫폼
 
 ### 프로젝트 개발 기간
 
