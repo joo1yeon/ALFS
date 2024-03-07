@@ -8,11 +8,45 @@
 
 ### 시연 영상
 
-> 📌 https://youtu.be/nYTkQnfxt8Q
+> https://youtu.be/nYTkQnfxt8Q
+
+### 목차
+
+- [기술 스택](#-기술-스택)
+- [서비스 소개](#-서비스-소개)
+- [데모](#-데모)
+- [기능 소개](#-기능-소개)
+  * [주요 기능](#주요-기능)
+  * [&#128106; 실행 화면 (일반회원)](#-실행-화면-일반회원)
+    + [메인페이지](#메인페이지)
+    + [마이페이지 - 알러지 관리](#마이페이지---알러지-관리)
+    + [상품 조회](#상품-조회)
+    + [대체상품 조회](#대체상품-조회)
+    + [특가할인 페이지](#특가할인-페이지)
+    + [장바구니](#장바구니)
+    + [마이페이지 - 배송지 관리](#마이페이지---배송지-관리)
+    + [이벤트 페이지](#이벤트-페이지)
+    + [고객 센터 1:1 문의](#고객-센터-11-문의)
+  * [&#128119; 실행 화면 (관리자)](#-실행-화면-관리자)
+    + [관리자 로그인](#관리자-로그인)
+    + [상품등록](#상품등록)
+    + [상품관리](#상품관리)
+    + [특가상품](#특가상품)
+    + [문의내역 관리](#문의내역-관리)
+- [산출물](#-산출물)
+    + [Figma](#figma)
+    + [ERD](#erd)
+    + [시스템 아키텍처](#시스템-아키텍처)
+    + [기능 명세서, API 명세서](#기능-명세서-api-명세서)
+    + [Git Flow](#git-flow)
+    + [Jira](#jira)
+    + [프로젝트 구조](#프로젝트-구조)
+- [팀원 소개](#-팀원-소개)
+
 
 <br>
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 기술 스택
+# 📌 기술 스택
 
 ### Back-End
 
@@ -87,7 +121,7 @@
 
 <br>
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 서비스 소개
+# 📌 서비스 소개
 
 ### 개요
 
@@ -104,7 +138,7 @@
 
 <br>
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 데모
+# 📌 데모
 
 ### 필수 사항
 
@@ -146,11 +180,11 @@ npm start
 
 <br>
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 기능 소개
+# 📌 기능 소개
 
 ## 주요 기능
 
-⭐ **알러지 필터링**
+**알러지 필터링**
 
 - 사용자가 회원가입에서 작성한 알러지 정보를 이용하여 상품 목록에서 뱃지로 알러지 원재료 포함 여부를 표시한다.
 - 뱃지 색상에 따른 구분
@@ -159,32 +193,32 @@ npm start
     - 노란색: 사용자가 기피하는 식품
     - 초록색: 구매해도 좋은 상품
 
-⭐ **대체 식품 추천**
+**대체 식품 추천**
 
 - 알러지를 유발하는 원재료에 해당하는 대체 식품 목록을 확인
 
-⭐ **선착순 특가 상품 구매**
+**선착순 특가 상품 구매**
 
 - 관리자가 등록한 기간 동안 특가 할인이 적용된 상품을 선착순으로 구매하는 이벤트로, 특가이벤트 종료 전까지 할인 가격에 구매할 수 있음
 - Spring Batch를 이용하여 관리자가 등록한 시간에 특가 상품을 구매 가능한 상태로 변경
 - 대기열을 이용한 대용량 트래픽 처리 구현
 
-⭐ **양자택일 이벤트**
+**양자택일 이벤트**
 
 - Spring Batch를 이용하여 특정 시간에 이벤트 시작
 - 사용자의 기피식품을 선택하는 이벤트로, 실시간 나의 입력 횟수 처리와 비율 반환
 
-⭐ **관리자 상품 등록**
+**관리자 상품 등록**
 
 - 관리자가 상품 정보를 입력할 때 이미지를 업로드하여 OCR 기능을 통해 원재료명을 추출
 - 상품 이미지는 AWS S3를 통해 이미지 URL을 받고 상품에 해당하는 이미지 URL을 DB에 저장
 
-⭐ **장바구니 결제**
+**장바구니 결제**
 
 - 사용자는 토스 페이 API를 사용하여 결제가능
 - 마이페이지에서 결제내역 확인가능
 
-## &#128106; 페이지 소개 - 일반회원 
+## &#128106; 실행 화면 (일반회원)
 
 ### 메인페이지
     
@@ -311,13 +345,13 @@ npm start
 1:1 문의 작성<img src="./exec/Readme-asset/ALFS_gif/사용자-문의-작성.gif" />
 
 
-## &#128119; 페이지 소개 - 관리자
+## &#128119; 실행 화면 (관리자)
 
 ### 관리자 로그인
 
 관리자 로그인<img src="./exec/Readme-asset/ALFS_gif/관리자-로그인.gif" />
 
-### 관리자 페이지 - 상품등록
+### 상품등록
 
 상품 등록 <img src="./exec/Readme-asset/ALFS_gif/관리자-상품-등록.gif" />
 
@@ -334,7 +368,7 @@ npm start
 
 </details>
 
-### 관리자 페이지 - 상품관리
+### 상품관리
 
 상품 관리<img src="./exec/Readme-asset/ALFS_gif/관리자-상품-삭제.gif" />
 
@@ -347,7 +381,7 @@ npm start
 
 </details>
 
-### 관리자 페이지 - 특가상품
+### 특가상품
 
 특가상품<img src="./exec/Readme-asset/ALFS_gif/특가상품-등록.gif" />
 
@@ -360,7 +394,7 @@ npm start
 
 </details>
 
-### 관리자 페이지 - 문의내역 관리
+### 문의내역 관리
 
 1:1 문의 답변<img src="./exec/Readme-asset/ALFS_gif/관리자-문의-답변.gif" />
 
@@ -375,7 +409,7 @@ npm start
 
 <br>
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 프로젝트 산출물
+# 📌 산출물
 
 ### Figma
 
@@ -683,7 +717,7 @@ npm start
 
 <br>
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> 팀원 소개
+# 📌 팀원 소개
 
 | 연주원🙂 | 김수진😉 | 손효민😁 | 신대혁😀 | 안종상🤔 | 홍주영😌 |
 | --------------------------------------- | ------------------------------------- | --------------------------------------------- | -------------------- | ---------- | --------- |
