@@ -424,7 +424,7 @@ npm start
 
 ### 기능 명세서, API 명세서
 
-| 기능 명세서 | API 명세서 |
+| [기능 명세서](https://tall-postbox-8b3.notion.site/ALFS-6640614405f64444b2816781378d5be5?pvs=4) | [API 명세서](https://tall-postbox-8b3.notion.site/API-080ce685cb2042ec9a6cbfdf1a198584?pvs=4) |
 | ----------- | -----------|
 | ![기능명세서](exec/Readme-asset/기능명세서.gif) | ![API설계서](exec/Readme-asset/API명세서.gif) |
 
