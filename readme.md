@@ -37,6 +37,7 @@
     + [Figma](#figma)
     + [ERD](#erd)
     + [시스템 아키텍처](#시스템-아키텍처)
+    + [Tool Chain](#tool-chain)
     + [기능 명세서, API 명세서](#기능-명세서-api-명세서)
     + [Git Flow](#git-flow)
     + [Jira](#jira)
@@ -421,6 +422,10 @@ npm start
 ### 시스템 아키텍처
 
 ![시스템아키텍처](exec/Readme-asset/시스템아키텍처.png)
+
+### Tool Chain
+
+![툴 체인](exec/Readme-asset/tool_chain.png)
 
 ### 기능 명세서, API 명세서
 
